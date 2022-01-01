@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>investment - Korean Re</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <link rel="icon" type="image/png" href="images/favicon.png"/>  
+    <link rel="stylesheet" href="css/main_2.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="investment">
+
+    <header class="slidedown">
+        <a href="index.html"><h1 class="logo container">logo</h1></a>
+        <nav class="container">
+            <ul class="main_menu_list">
+                <li><a href="about.html">회사 소개</a>
+                    <ul>
+                        <li><a href="#">Korean Re</a></li>
+                        <li><a href="#">걸어온 길</a></li>
+                        <li><a href="#">글로벌 네트워크</a></li>
+                        <li><a href="#">미션과 비전</a></li>
+                        <li><a href="#">리스크</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li><a href="reinsurance.html">재보험</a>
+                    <ul>
+                        <li><a href="#">재보험이란?</a></li>
+                        <li><a href="#">상품 소개</a></li>
+                    </ul>
+                </li>
+                <li><a href="media.html">홍보 채널</a>
+                    <ul>
+                        <li><a href="#">새소식</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">기업문화</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="investment.html">투자 정보</a>
+                    <ul>
+                        <li><a href="#">정기보고</a></li>
+                        <li><a href="#">재무정보</a></li>
+                        <li><a href="#">경영정보</a></li>
+                        <li><a href="#">IR 자료실</a></li>
+                    </ul>
+                </li>
+                <li><a href="careers.html">채용</a>
+                    <ul>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">채용소식</a></li>
+                    </ul>
+                </li>
+            </ul><!-- //mainmenu -->
+        </nav>
+        <h2 class="btn-modal"><a href="#">contact</a></h2>
+    </header>
+    <div class="contact_modal">
+        <form>
+            <div class="close"><a href="#">close</a></div>
+
+            <h1 class="content-des en">Contact us</h1>
+            <div id="progress">
+                <div class="pct"><span>0</span> % 완료</div>
+            </div>     
+
+            <fieldset>
+                <legend class="content-des">1. 무엇을 도와드릴까요?</legend>
+                <div class="radiotop">
+                    <div class="ra_b">
+                        <input type="radio" id="business" name="referrer" value="Business">
+                        <label for="business" >비즈니스 관련</label>
+                    </div>
+                    <div class="ra_i">
+                        <input type="radio" id="investment" name="referrer" value="Investment">
+                        <label for="investment" >투자 관련</label>
+                    </div>
+                </div>
+                <div class="radiobottom">
+                    <div class="ra_m">
+                        <input type="radio" id="medias" name="referrer" value="Media">
+                        <label for="medias" >미디어 관련</label>
+                    </div>
+                    <div class="ra_e">
+                        <input type="radio" id="other" name="referrer" value="Other">
+                        <label for="other" >기타</label>
+                    </div>        
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <div class="validation">이 필드는 반드시 입력해야합니다.</div>
+                <label for="text" class="content-des">2. 성함을 적어주세요.</label>
+                <input type="text" class="form-control" placeholder="이름" id="txtName" required/>
+              </div>
+              <div class="form-group">
+                <div class="validation">이 필드는 반드시 입력해야합니다.</div>
+                <label for="email" class="content-des">3. 연락받으실 이메일을 적어주세요.</label>
+                <input type="email" class="form-control" placeholder="email@address.com" id="txtEmail" required />
+              </div>
+            <button id="submit">문의 남기기</button>
+           
+        </form>
+    </div><!-- //contact_modal -->
+
+    <div class="sub_top_box">
+        <div class="sub_visual">
+            <div class="sub_visual_img contrast"></div>
+            <div class="sub_visual_title container">
+                <h1 class="content-tt wow fadeInDown">공시</h1>
+                <p class="content-des wow fadeInDown">우리는 창의적이고 전문적인 보험 서비스 제공을 통해 고객, 주주, 직원의 안전과 번영을 추구하고 이를 위해 헌신합니다.
+                </p>
+            </div>
+        </div>
+        <div class="sub_menu_wrap">
+            <div class="sub_menu container">
+                <a href="investment.html">재무정보</a>
+                <a href="investment_stock.html">주가정보</a>
+                <a href="investment_ann.html">공고</a>
+                <a href="investment_adv.html">공시</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+
+
+        <div class="faq">
+            <div class="faq_banner contrast">
+                <div class="contents container">
+                    <h2 class="content-tt">공시</h2>
+                    <p class="content-des">korean re의 새소식을 알아보세요.</p>
+                </div>
+            </div><!-- //faq_banner end -->
+
+            <div class="faq_wrapper container">
+
+                <div class="tab_buttons_nav faqfilter">
+                    <button type="button" data-faqfilter="all" class="tab_button tab-button-all">전체</button>
+                    <button type="button" data-faqfilter=".fnav01" class="tab_button">재보험</button>
+                    <button type="button" data-faqfilter=".fnav02" class="tab_button">투자</button>
+                    <button type="button" data-faqfilter=".fnav03" class="tab_button">기타</button>
+                </div>
+
+                <div class="faq-mix-wrapper">
+
+                    <div class="item fnav01 qna_list" data-order="1">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">재보험</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav02 qna_list" data-order="2">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">투자</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav03 qna_list" data-order="3">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">기타</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav01 qna_list" data-order="1">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">재보험</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav02 qna_list" data-order="2">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">투자</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav03 qna_list" data-order="3">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">기타</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav01 qna_list" data-order="1">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">재보험</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav02 qna_list" data-order="2">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">투자</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav03 qna_list" data-order="3">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">기타</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav01 qna_list" data-order="1">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">재보험</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav02 qna_list" data-order="2">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">투자</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav03 qna_list" data-order="3">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">기타</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav01 qna_list" data-order="1">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">재보험</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav02 qna_list" data-order="2">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">투자</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+                    <div class="item fnav03 qna_list" data-order="3">
+                        <div class="question">
+                            <i class="fab fa-quora"></i>
+                            <h5 class="section-smtt">기타</h5>
+                            <h4 class="section-tt">실손표준형과 선택형의 보상금액은 어떻게 다른가요?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div><!-- //qna_list end -->
+                        <div class="answer">
+                            <p class="section-des">
+                                동일한 보장내용을 보상하는 보험을 2개이상 가입하더라도 실제 부담한 비용을 한도로 각각 비례하여 보상받게 됩니다.<br>
+                                즉, 다수보험의 경우 각 계약의 보상대상의료비 및 보상책임액에 따라 정해진 방법에 의해 계산된 각 계약의 비례분담액을 지급합니다.<br>
+                                각 계약의 보상책임액 합계액이 각 계약의 보상대상의료비 중 최고액에서 각 계약의 피보험자부담 공제금액 중<br>
+                                최소액을 차감한 금액을 초과한 다수보험은 아래 산출방식에 따라 각 계약의 비례분담액을 계산합니다.
+                            </p>
+                        </div><!-- //answer end -->
+                    </div>
+   
+ 
+
+                    <div class="pagination">
+                    <!--
+                        ALL을 눌렀을 때 나올 24개를 6개씩만 보이게 pagination으로 정리하기
+                        https://codepen.io/Hildegard917/pen/QWdWZEx?editors=0110 참고
+                    -->
+                        <ul id="numbers">
+
+                        </ul>
+                    </div><!-- //pagination end -->
+                </div><!-- //faq-mix-wrapper end -->
+            </div><!-- //faq_wrapper end -->
+            <div class="pagination">
+                <!--
+                    6개씩만 보이게 pagination으로 정리하기
+                    https://codepen.io/Hildegard917/pen/QWdWZEx?editors=0110 참고                    
+                -->
+                    <ol id="numbers">
+                        
+                    </ol>
+                </div><!-- //pagination end -->
+        </div><!-- //faq end -->
+
+
+
+        
+        <div class="explore_reports">
+
+            <section class="ex1"><!-- 여기에 각 배경 이미지 -->
+                <div class="ex_contents"><!-- 여기에 호버시 테두리 -->
+                    <h2 class="content-tt">정기 보고</h2>
+                    <div>
+                        <span class="tables_line"></span>
+                        <p class="content-des">korean re는 실적을 정기적으로 알립니다.</p>
+                        <p><a href="" class="btn-white">더 알아보기</a></p>
+                    </div>
+                </div>
+            </section><!-- //ex1 end -->
+
+            <section class="ex2"><!-- 여기에 각 배경 이미지 -->
+                <div class="ex_contents"><!-- 여기에 호버시 테두리 -->
+                    <h2 class="content-tt">공시 정보</h2>
+                    <div>
+                        <span class="tables_line"></span>
+                        <p class="content-des">korean re는 실적을 정기적으로 알립니다.</p>
+                        <p><a href="" class="btn-white">더 알아보기</a></p>
+                    </div>
+                </div>
+            </section><!-- //ex2 end -->
+
+            <section class="ex3"><!-- 여기에 각 배경 이미지 -->
+                <div class="ex_contents"><!-- 여기에 호버시 테두리 -->
+                    <h2 class="content-tt">IR 자료실</h2>
+                    <div>
+                        <span class="tables_line"></span>
+                        <p class="content-des">korean re는 실적을 정기적으로 알립니다.</p>
+                        <p><a href="" class="btn-white">더 알아보기</a></p>
+                    </div>
+                </div>
+            </section><!-- //ex3 end -->
+
+        </div><!-- //explore_reports end -->
+    
+    </main>
+
+
+    <div class="overlay">
+        <ul class="menu">
+            <li class="contrast">
+                <div class="menucontents">
+                    <a href="about.html">
+                        <h2>
+                            <span class="en">about us</span>
+                            <span class="kr">회사 소개</span>
+                        </h2>
+                    </a>
+                    <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                    <p><a href="about.html" class="btn-white-trans">더 알아보기</a></p>
+                </div>
+            </li>
+            <li class="contrast">
+                <div class="menucontents">
+                    <a href="reinsurance.html">
+                        <h2>
+                            <span class="en">reinsurance</span>
+                            <span class="kr">재보험</span>
+                        </h2>
+                    </a>
+                    <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                    <p><a href="reinsurance.html" class="btn-white-trans">더 알아보기</a></p>
+                </div>
+            </li>
+            <li class="contrast">
+                <div class="menucontents">
+                    <a href="media.html">
+                        <h2>
+                            <span class="en">media</span>
+                            <span class="kr">홍보 채널</span>
+                        </h2>
+                    </a>
+                    <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                    <p><a href="media.html" class="btn-white-trans">더 알아보기</a></p>
+                </div>
+            </li>
+            <li class="contrast">
+                <div class="menucontents">
+                    <a href="investment.html">
+                        <h2>
+                            <span class="en">investment</span>
+                            <span class="kr">투자 정보</span>
+                        </h2>
+                    </a>
+                    <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                    <p><a href="investment.html" class="btn-white-trans">더 알아보기</a></p>
+                </div>
+            </li>
+            <li class="contrast">
+                <div class="menucontents">
+                    <a href="careers.html">
+                        <h2>
+                            <span class="en">careers</span>
+                            <span class="kr">채용 정보</span>
+                        </h2>
+                    </a>
+                    <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                    <p><a href="careers.html" class="btn-white-trans">더 알아보기</a></p>
+                </div>
+            </li>
+        </ul>
+        <span class="menulibg"></span>
+    </div>
+        
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="item_left">
+                    <img src="images/footer_logo.png" alt="">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item_right">
+                    <ul>
+                        <li><a href="about.html">about us</a>
+                            <ul>
+                                <li><a href="">Korean Re</a></li>
+                                <li><a href="">미션과 비전</a></li>
+                                <li><a href="">연혁</a></li>
+                                <li><a href="">Risk Knowledge</a></li>
+                                <li><a href="">Global Network</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="reinsurance.html">Reinsurance</a>
+                            <ul>
+                                <li><a href="">재보험이란</a></li>
+                                <li><a href="">Our Business</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="media.html">media center</a>
+                            <ul>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Press Center</a></li>
+                                <li><a href="">기업문화</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="investment.html">investments</a>
+                            <ul>
+                                <li><a href="">Annual Report</a></li>
+                                <li><a href="">경영정보</a></li>
+                                <li><a href="">재무정보</a></li>
+                                <li><a href="">공시정보</a></li>
+                                <li><a href="">IR 자료실</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="careers.html">careers</a>
+                            <ul>
+                                <li><a href="">인재상</a></li>
+                                <li><a href="">인사제도</a></li>
+                                <li><a href="">채용안내</a></li>
+                                <li><a href="">직무소개</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="investment.html">주가정보</a>
+                            <ul>
+                                <li><a href="">kospi 7,940 <span>+1.02%</span></a></li>
+                                <li><a href="">11 March 2021, 17:02</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- //container row end -->
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_nav">
+                    <ul>
+                        <li><a href="">개인정보 취급방침</a></li>
+                        <li><a href="">법적고지</a></li>
+                        <li><a href="">고객센터</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright&copy; 2000~2015 Korean Reinsurance Company. All Reserved</p>
+                </div>
+            </div>
+        </div><!-- //footer_bottom end -->
+    </footer>
+
+
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/sub.js"></script>
+
+
+</body>
+</html>

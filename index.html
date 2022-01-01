@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Re</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png"/>  
+    <link rel="stylesheet" href="css/main_2.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 class="logo container">logo</h1></a>
+        <nav class="container">
+            <ul class="main_menu_list">
+                <li><a href="about.html">회사 소개</a>
+                    <ul>
+                        <li><a href="#">Korean Re</a></li>
+                        <li><a href="#">걸어온 길</a></li>
+                        <li><a href="#">글로벌 네트워크</a></li>
+                        <li><a href="#">미션과 비전</a></li>
+                        <li><a href="#">리스크</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li><a href="reinsurance.html">재보험</a>
+                    <ul>
+                        <li><a href="#">재보험이란?</a></li>
+                        <li><a href="#">상품 소개</a></li>
+                    </ul>
+                </li>
+                <li><a href="media.html">홍보 채널</a>
+                    <ul>
+                        <li><a href="#">새소식</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">기업문화</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="investment.html">투자 정보</a>
+                    <ul>
+                        <li><a href="#">정기보고</a></li>
+                        <li><a href="#">재무정보</a></li>
+                        <li><a href="#">경영정보</a></li>
+                        <li><a href="#">IR 자료실</a></li>
+                    </ul>
+                </li>
+                <li><a href="careers.html">채용</a>
+                    <ul>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">채용소식</a></li>
+                    </ul>
+                </li>
+            </ul><!-- //mainmenu -->
+            <h2 class="btn-modal"><a href="#">contact</a></h2>
+        </nav>
+    </header>
+    <div class="contact_modal">
+        <form>
+            <div class="close"><a href="#">close</a></div>
+
+            <h1 class="content-des en">Contact us</h1>
+            <div id="progress">
+                <div class="pct"><span>0</span> % 완료</div>
+            </div>     
+
+            <fieldset>
+                <legend class="content-des">1. 무엇을 도와드릴까요?</legend>
+                <div class="radiotop">
+                    <div class="ra_b">
+                        <input type="radio" id="business" name="referrer" value="Business">
+                        <label for="business" >비즈니스 관련</label>
+                    </div>
+                    <div class="ra_i">
+                        <input type="radio" id="investment" name="referrer" value="Investment">
+                        <label for="investment" >투자 관련</label>
+                    </div>
+                </div>
+                <div class="radiobottom">
+                    <div class="ra_m">
+                        <input type="radio" id="medias" name="referrer" value="Media">
+                        <label for="medias" >미디어 관련</label>
+                    </div>
+                    <div class="ra_e">
+                        <input type="radio" id="other" name="referrer" value="Other">
+                        <label for="other" >기타</label>
+                    </div>        
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <div class="validation">이 필드는 반드시 입력해야합니다.</div>
+                <label for="text" class="content-des">2. 성함을 적어주세요.</label>
+                <input type="text" class="form-control" placeholder="이름" id="txtName" required/>
+              </div>
+              <div class="form-group">
+                <div class="validation">이 필드는 반드시 입력해야합니다.</div>
+                <label for="email" class="content-des">3. 연락받으실 이메일을 적어주세요.</label>
+                <input type="email" class="form-control" placeholder="email@address.com" id="txtEmail" required />
+              </div>
+            <button id="submit">문의 남기기</button>
+           
+        </form>
+    </div><!-- //contact_modal -->
+
+    <div id="fullpage">
+        <div class="banner_wrapper section" data-title="Main">
+            <div>
+                <div class="bnslides">
+                    <div class="bnslide01 slide contrast">
+                        <div class="bnslide_contents container">
+                            <h3 class="content-smtt">INVESTMENT</h3>
+                            <h2 class="content-tt">2021년의 KOREAN RE</h2>
+                            <p class="content-des">우리는 2021년 상반기 모든 사업에서 성공적인 성과를 거두었습니다. 비즈니스 성과를 발표합니다.</p>
+                            <p><a href="" class="btn-white">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <div class="bnslide02 slide contrast">
+                        <div class="bnslide_contents container">
+                            <h3 class="content-smtt">NEWS</h3>
+                            <h2 class="content-tt">미국 경제 전망 : 위험 상승</h2>
+                            <p class="content-des">장기 이자율은 현재 안정적이지만, 경제 과열에 대한 인플레이션 우려가 증가하고 있습니다.</p>
+                            <p><a href="" class="btn-white">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <div class="bnslide03 slide contrast">
+                        <div class="bnslide_contents container">
+                            <h3 class="content-smtt">MEDIA</h3>
+                            <h2 class="content-tt">TO BE OR NOT BE?</h2>
+                            <p class="content-des">행동경제학(BE)을 적용하는 것이 윤리적일까요? 보험업계의 통찰력이 필요한 시점입니다. 포럼을 확인해보세요.</p>
+                            <p><a href="" class="btn-white">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <div class="bnslide04 slide contrast">
+                        <div class="bnslide_contents container">
+                            <h3 class="content-smtt">REINSURANCE</h3>
+                            <h2 class="content-tt">호주 산불 이후 1년</h2>
+                            <p class="content-des">2019년 가을, 사상 최악의 산불이 호주에서 일어난지 1년이 지났습니다. 수석 이코노미스트의 솔루션을 확인하세요.</p>
+                            <p><a href="" class="btn-white">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <!-- <div class="fp-slidesNav">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span>category</span>
+                                    <span>slide title 2020</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>category</span>
+                                    <span>slide title 2020</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>category</span>
+                                    <span>slide title 2020</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div><!-- //banner slides end -->
+            </div>
+        </div>
+        <div class="develop section" data-title="Develop">
+            <div class="devLeftslide_wrapper fp-auto-height-responsive">
+                <section class="devLeft_section"><!-- 왼쪽 공간 차지 -->
+                    <div class="dLslide01"><!-- 여기에 움직일 왼쪽 배경 -->
+                        <h3 class="content-smtt">연구개발</h3>
+                        <h2 class="content-tt">우리는 고객의<br> 자산 보호를 위하여<br> 끊임없이 연구합니다.</h2>
+                    </div>
+                </section>
+                <!-- <div class="dLpager">
+                    <ul>
+                        <li>분석</li>
+                        <li>영향</li>
+                        <li>글로벌</li>
+                        <li>재보험</li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="devRightslide_wrapper fp-auto-height-responsive">
+                <section class="devRight_slides">
+
+                    <div class="dRslide01 slide">
+                        <section class="imgbox">
+                            <h4 class="hidden">imgbox</h4>
+                            <span>
+                                    Global Activity
+                            </span>
+                        </section>
+                        <div class="content">
+                            <h2 class="section-tt">분석</h2>
+                            <p>아시아 1위의 자리를 지키기 위하여
+                                Korean re만의 차별화된 재보험 전략을 세계에 알립니다.</p>
+                            <p><a href="about.html" class="btn-color">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <div class="dRslide02 slide">
+                        <section class="imgbox">
+                            <h4 class="hidden">imgbox</h4>
+                            <span>
+                                    Global Activity
+                            </span>
+                        </section>
+                        <div class="content">
+                            <h2 class="section-tt">영향</h2>
+                            <p>아시아 1위의 자리를 지키기 위하여
+                                Korean re만의 차별화된 재보험 전략을 세계에 알립니다.</p>
+                            <p><a href="about.html" class="btn-color">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <div class="dRslide03 slide">
+                        <section class="imgbox">
+                            <h4 class="hidden">imgbox</h4>
+                            <span>
+                                    Global Activity
+                            </span>
+                        </section>
+                        <div class="content">
+                            <h2 class="section-tt">글로벌</h2>
+                            <p>아시아 1위의 자리를 지키기 위하여
+                                Korean re만의 차별화된 재보험 전략을 세계에 알립니다.</p>
+                            <p><a href="about.html" class="btn-color">더 알아보기</a></p>
+                        </div>
+                    </div>
+                    <div class="dRslide04 slide">
+                        <section class="imgbox">
+                            <h4 class="hidden">imgbox</h4>
+                            <span>
+                                    Global Activity
+                            </span>
+                        </section>
+                        <div class="content">
+                            <h2 class="section-tt">재보험</h2>
+                            <p>아시아 1위의 자리를 지키기 위하여
+                                Korean re만의 차별화된 재보험 전략을 세계에 알립니다.</p>
+                            <p><a href="about.html" class="btn-color">더 알아보기</a></p>
+                        </div>
+                    </div>
+                </section>
+                <!-- <a href="" role="button"><i class="fas fa-chevron-left"></i>
+                <a href="" role="button"><i class="fas fa-chevron-right"></i>
+                </a> -->
+            </div>
+        </div>
+        <div class="business section" data-title="Business">
+
+            <div class="container">
+                <ul class="aside">
+                    <li><a href="#busi_slide01">Best</a></li>
+                    <li><a href="#busi_slide02">News</a></li>
+                    <li class="active"><a href="#busi_slide03">Upcoming</a></li>
+                </ul>
+                <div class="business_slide_wrapper">
+                    <div class="contents">
+                        <h2 class="content-tt">our business</h2>
+                        <p class="content-des">언제든 발생할 수 있는 리스크에 대한 철저한 분석과 이해로 재보험의 혁신을 이끌어갑니다.</p>
+                    </div>
+                    <div class="business_slides">
+                        <div class="busi_slide01" id="busi_slide01">
+                            <ul>
+                                <li>
+                                    <span>first business</span>
+                                </li>
+                                <li>
+                                    <span>first business</span>
+                                </li>
+                                <li>
+                                    <span>first business</span>
+                                </li>
+                            </ul>
+                            <p><a href="" class="btn-color">더 알아보기</a></p>
+
+                        </div>
+                        <div class="busi_slide02" id="busi_slide02">
+                            <ul>
+                                <li>
+                                    <span>second business</span>
+                                </li>
+                                <li>
+                                    <span>second business</span>
+                                </li>
+                                <li>
+                                    <span>second business</span>
+                                </li>
+                            </ul>
+                            <p><a href="" class="btn-color">더 알아보기</a></p>
+
+                        </div>
+                        <div class="busi_slide03" id="busi_slide03">
+                            <ul>
+                                <li>
+                                    <span>third business</span>
+                                </li>
+                                <li>
+                                    <span>third business</span>
+                                </li>
+                                <li>
+                                    <span>third business</span>
+                                </li>
+                            </ul>
+                            <p><a href="" class="btn-color">더 알아보기</a></p>
+
+                        </div>
+                    </div>
+                </div><!-- //business slide wrapper-->
+            </div>
+
+        </div>
+        <div class="risk_knowledge section" data-title="Risk"><!-- 여기 배경 -->
+            <div class="container">
+                <div class="contents">
+                    <h2 class="content-tt">risk knowledge</h2>
+                    <p class="content-des">
+                    언제든 발생할 수 있는 리스크에 대한 철저한 분석과 이해로 재보험의 혁신을 이끌어갑니다.
+                    </p>
+                </div>
+                <div class="images">
+                    <div class="left">
+                        <!-- <img src="images/dt_customer002_2.png" alt=""> -->
+                        <section class="left_top">
+                            <h2 class="hidden">left top</h2>
+                        </section>
+                    </div>
+                    <div class="right">
+                        <section class="top">
+                            <h2 class="hidden">right top</h2>
+                            <!-- <img src="images/fly-d-4MNuO-rJnA8-unsplash.png" alt=""> -->
+                        </section>
+                        <section class="bottom">
+                            <h2 class="hidden">right bottom</h2>
+                            <!-- <img src="images/GettyImages-1175082919_2.png" alt=""> -->
+                        </section>
+                    </div>
+                </div>
+                <p><a href="" class="btn-color">더 알아보기</a></p>
+            </div>
+        </div><!-- // risk end -->
+        <div class="investment section" data-title="Investment"><!-- 지구 배경 -->
+            <div class="content">
+                <h2 class="content-tt">investments</h2>
+                <p class="content-des">
+                    Korean re는 국제신용등급 A를 유지하고 있습니다. <br>
+                    세계가 인정한 Korean re의 안정적인 신용등급평가로 고객의 재산을 안전하게 지킵니다.
+                </p>
+                <p><a href="" class="btn-white">더 알아보기</a></p>
+            </div>
+            <div class="iv_center">
+                <div class="icons">
+                    <img src="images/img_earth.png" alt="" class="i_earth">
+                    <img src="images/earth_line_back.png" alt="" class="back">
+                    <img src="images/earth_line_front.png" alt="" class="front">
+                    <section class="iclist_01">
+                        <a href=""><h4 class="section-tt">자산운용<br>(am)</h4></a>
+                    </section>
+                    <section class="iclist_02">
+                        <a href=""><h4 class="section-tt">기업금융<br>(ib)</h4></a>
+                    </section>
+                    <section class="iclist_03">
+                        <a href=""><h4 class="section-tt">리츠<br>(reits)</h4></a>
+                    </section>
+                    <section class="iclist_04">
+                        <a href=""><h4 class="section-tt">프라이빗<br>에쿼티(pe)</h4></a>
+                    </section>
+                    <section class="iclist_05">
+                        <a href=""><h4 class="section-tt">개발투자<br>(di)</h4></a>
+                    </section>
+                    <section class="iclist_06">
+                        <a href=""><h4 class="section-tt">자산관리<br>(amco)</h4></a>
+                    </section>
+                </div>
+
+            </div>
+        </div><!-- //investment end -->
+        <div class="global contrast section" data-title="Global"><!-- 구름 배경 -->
+            <div class="container">
+                <div class="full-bg">
+                    <video id="myVideo" loop muted data-autoplay>
+                        <source src="https://koreanre.co.kr/USER_DATA/KOREANRE/CONTENT/EDITOR/video/Koreanre_Korean2020_0109.mp4" type="video/mp4">
+                    </video>
+                    <!-- <video data-autoplay>
+                        <source src="https://koreanre.co.kr/USER_DATA/KOREANRE/CONTENT/EDITOR/video/Koreanre_Korean2020_0109.mp4" muted>
+                    </video> -->
+                    <!-- <video src="https://koreanre.co.kr/USER_DATA/KOREANRE/CONTENT/EDITOR/video/Koreanre_Korean2020_0109.mp4" muted loop autoplay></video> -->
+                </div>
+                <!-- <img src="images/img_nwMap.png" alt="">
+                <div class="contents">
+                    <h2 class="content-tt">global network</h2>
+                    <p class="content-des">중국, 일본, 런던 ,싱가폴 등 13개국의 지사로 뻗어나간 Korean Re</p>
+                    <p class="content-des">Korean Re의 무대는 전세계입니다. 이제 아시아 no.1을 넘어 전세계 no.1에 도전합니다.</p>
+                </div>
+                <p><a href="" class="btn-white">더 알아보기</a></p> -->
+            </div>
+        </div><!-- //global end -->
+        <div class="solutions section contrast" data-title="Solutions">
+            <div class="container">
+                <div class="contents">
+                    <h2 class="content-tt">our solutions</h2>
+                    <p class="content-des">
+                        KOREAN RE의 솔루션팀은 업계 최고의 이코노미스트로 이루어져있습니다. 전문가의 고객맞춤형 솔루션을 받아보세요. 
+                    </p>
+                    <!-- <p><a href="reinsurance.html#sollution_gallery" class="btn-white">더 알아보기</a></p> -->
+                    
+                </div>
+                <div class="sections">
+                    <div class="sec01">
+                        <img src="images/shield.png" alt="">
+                        <div class="seccontents">
+                            <h4 class="section-tt">property & casualty</h4>
+                            <p class="section-des">
+                                우리는 고객에게 합리적인 재물보험과 혁신적인 재보험 솔루션을 제공합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec02">
+                        <img src="images/heart.png" alt="">
+                        <div class="seccontents">
+                            <h4 class="section-tt">life & health</h4>
+                            <p class="section-des">
+                            우리는 합리적인 건강보험을 위해 다양한 방향의 솔루션을 제공합니다.
+                            </p>                            
+                        </div>
+                    </div>
+                    <div class="sec03">
+                        <img src="images/euro.png" alt="">
+                        <div class="seccontents">
+                            <h4 class="section-tt">investments</h4>
+                            <p class="section-des">
+                                KOREAN RE의 재무설계팀은 최고의 투자 솔루션을 제공합니다.
+                            </p>                        
+                        </div>
+                    </div>
+                </div><!-- // sections end -->
+            </div>
+        </div><!-- //solution end -->
+        <div class="overlay section">
+            <ul class="menu">
+                <li class="contrast">
+                    <div class="menucontents">
+                        <a href="about.html">
+                            <h2>
+                                <span class="en">about us</span>
+                                <span class="kr">회사 소개</span>
+                            </h2>
+                        </a>
+                        <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                        <p><a href="about.html" class="btn-white-trans">더 알아보기</a></p>
+                    </div>
+                </li>
+                <li class="contrast">
+                    <div class="menucontents">
+                        <a href="reinsurance.html">
+                            <h2>
+                                <span class="en">reinsurance</span>
+                                <span class="kr">재보험</span>
+                            </h2>
+                        </a>
+                        <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                        <p><a href="reinsurance.html" class="btn-white-trans">더 알아보기</a></p>
+                    </div>
+                </li>
+                <li class="contrast">
+                    <div class="menucontents">
+                        <a href="media.html">
+                            <h2>
+                                <span class="en">media</span>
+                                <span class="kr">홍보 채널</span>
+                            </h2>
+                        </a>
+                        <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                        <p><a href="media.html" class="btn-white-trans">더 알아보기</a></p>
+                    </div>
+                </li>
+                <li class="contrast">
+                    <div class="menucontents">
+                        <a href="investment.html">
+                            <h2>
+                                <span class="en">investment</span>
+                                <span class="kr">투자 정보</span>
+                            </h2>
+                        </a>
+                        <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                        <p><a href="investment.html" class="btn-white-trans">더 알아보기</a></p>
+                    </div>
+                </li>
+                <li class="contrast">
+                    <div class="menucontents">
+                        <a href="careers.html">
+                            <h2>
+                                <span class="en">careers</span>
+                                <span class="kr">채용 정보</span>
+                            </h2>
+                        </a>
+                        <p>아시아 대표 재보험사 korean re. <br> 선두에서 당당하게 미래를 주도하는 korean re에게 투자하세요.</p>
+                        <p><a href="careers.html" class="btn-white-trans">더 알아보기</a></p>
+                    </div>
+                </li>
+            </ul>
+            <span class="menulibg"></span>
+        </div>
+
+    <footer class="section fp-auto-height" data-title="Footer">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="item_left">
+                        <img src="images/footer_logo.png" alt="">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item_right">
+                        <ul>
+                            <li><a href="about.html">about us</a>
+                                <ul>
+                                    <li><a href="">Korean Re</a></li>
+                                    <li><a href="">미션과 비전</a></li>
+                                    <li><a href="">연혁</a></li>
+                                    <li><a href="">Risk Knowledge</a></li>
+                                    <li><a href="">Global Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="reinsurance.html">Reinsurance</a>
+                                <ul>
+                                    <li><a href="">재보험이란</a></li>
+                                    <li><a href="">Our Business</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="media.html">media center</a>
+                                <ul>
+                                    <li><a href="">News</a></li>
+                                    <li><a href="">Press Center</a></li>
+                                    <li><a href="">기업문화</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="investment.html">investments</a>
+                                <ul>
+                                    <li><a href="">Annual Report</a></li>
+                                    <li><a href="">경영정보</a></li>
+                                    <li><a href="">재무정보</a></li>
+                                    <li><a href="">공시정보</a></li>
+                                    <li><a href="">IR 자료실</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="careers.html">careers</a>
+                                <ul>
+                                    <li><a href="">인재상</a></li>
+                                    <li><a href="">인사제도</a></li>
+                                    <li><a href="">채용안내</a></li>
+                                    <li><a href="">직무소개</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="investment.html">주가정보</a>
+                                <ul>
+                                    <li><a href="">kospi 7,940 <span>+1.02%</span></a></li>
+                                    <li><a href="">11 March 2021, 17:02</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- //container row end -->
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="footer_nav">
+                        <ul>
+                            <li><a href="">개인정보 취급방침</a></li>
+                            <li><a href="">법적고지</a></li>
+                            <li><a href="">고객센터</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright&copy; 2000~2015 Korean Reinsurance Company. All Reserved</p>
+                    </div>
+                </div>
+            </div><!-- //footer_bottom end -->
+    </footer>
+
+
+    <div id="infopanel" class="modal">
+        <div class="content">
+            <h2>본 웹사이트는 구직용 포트폴리오 사이트로,<br/> Korean Re와는 관계가 없습니다.</h2>
+            <p><em>제작 기간 | </em>2021.03.20 ~ 2021.05.14</p>
+            <p><em>주요 특징 | </em>html, css, flex, jquery, 반응형</p>
+            <p><em>구현 완료 | </em>
+                <a href="index.html">메인 페이지,</a>
+                <a href="about.html">회사 소개 페이지</a>
+                <a href="reinsurance.html">재보험 페이지,</a>
+                <a href="media.html">홍보채널 페이지,</a>
+                <a href="investment.html">투자정보 페이지,</a>
+                <a href="careers.html">채용정보 페이지</a>
+            
+            </p>
+            <p><em>연락처 | </em>박하진 hagene1757@gmail.com</p>
+            <div class="close"><a href="#">close</a></div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
